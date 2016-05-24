@@ -1,0 +1,178 @@
+.card {
+	width: 120px;
+	height: 174px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 2px;
+	display: inline-block;
+}
+
+.cards {
+	min-height: 210px;
+}
+.alert-modal{
+    height: 80px !important;
+}
+
+.C10 {
+    background: url('../img/cards.png') 0px 0px no-repeat;
+}
+.D10 {
+    background: url('../img/cards.png') -120px 0px no-repeat;
+}
+.H10 {
+    background: url('../img/cards.png') -240px 0px no-repeat;
+}
+.S10 {
+    background: url('../img/cards.png') -360px 0px no-repeat;
+}
+.C2 {
+    background: url('../img/cards.png') -480px 0px no-repeat;
+}
+.D2 {
+    background: url('../img/cards.png') -600px 0px no-repeat;
+}
+.H2 {
+    background: url('../img/cards.png') -720px 0px no-repeat;
+}
+.S2 {
+    background: url('../img/cards.png') -840px 0px no-repeat;
+}
+.C3 {
+    background: url('../img/cards.png') -960px 0px no-repeat;
+}
+.D3 {
+    background: url('../img/cards.png') -1080px 0px no-repeat;
+}
+.H3 {
+    background: url('../img/cards.png') -1200px 0px no-repeat;
+}
+.S3 {
+    background: url('../img/cards.png') -1320px 0px no-repeat;
+}
+.C4 {
+    background: url('../img/cards.png') -1440px 0px no-repeat;
+}
+.D4 {
+    background: url('../img/cards.png') -1560px 0px no-repeat;
+}
+.H4 {
+    background: url('../img/cards.png') -1680px 0px no-repeat;
+}
+.S4 {
+    background: url('../img/cards.png') -1800px 0px no-repeat;
+}
+.C5 {
+    background: url('../img/cards.png') -1920px 0px no-repeat;
+}
+.D5 {
+    background: url('../img/cards.png') -2040px 0px no-repeat;
+}
+.H5 {
+    background: url('../img/cards.png') -2160px 0px no-repeat;
+}
+.S5 {
+    background: url('../img/cards.png') -2280px 0px no-repeat;
+}
+.C6 {
+    background: url('../img/cards.png') -2400px 0px no-repeat;
+}
+.D6 {
+    background: url('../img/cards.png') -2520px 0px no-repeat;
+}
+.H6 {
+    background: url('../img/cards.png') -2640px 0px no-repeat;
+}
+.S6 {
+    background: url('../img/cards.png') -2760px 0px no-repeat;
+}
+.C7 {
+    background: url('../img/cards.png') -2880px 0px no-repeat;
+}
+.D7 {
+    background: url('../img/cards.png') -3000px 0px no-repeat;
+}
+.H7 {
+    background: url('../img/cards.png') -3120px 0px no-repeat;
+}
+.S7 {
+    background: url('../img/cards.png') -3240px 0px no-repeat;
+}
+.C8 {
+    background: url('../img/cards.png') -3360px 0px no-repeat;
+}
+.D8 {
+    background: url('../img/cards.png') -3480px 0px no-repeat;
+}
+.H8 {
+    background: url('../img/cards.png') -3600px 0px no-repeat;
+}
+.S8 {
+    background: url('../img/cards.png') -3720px 0px no-repeat;
+}
+.C9 {
+    background: url('../img/cards.png') -3840px 0px no-repeat;
+}
+.D9 {
+    background: url('../img/cards.png') -3960px 0px no-repeat;
+}
+.H9 {
+    background: url('../img/cards.png') -4080px 0px no-repeat;
+}
+.S9 {
+    background: url('../img/cards.png') -4200px 0px no-repeat;
+}
+.CA {
+    background: url('../img/cards.png') -4320px 0px no-repeat;
+}
+.DA {
+    background: url('../img/cards.png') -4440px 0px no-repeat;
+}
+.HA {
+    background: url('../img/cards.png') -4560px 0px no-repeat;
+}
+.SA {
+    background: url('../img/cards.png') -4680px 0px no-repeat;
+}
+.CJ {
+    background: url('../img/cards.png') -4800px 0px no-repeat;
+}
+.DJ {
+    background: url('../img/cards.png') -4920px 0px no-repeat;
+}
+.HJ {
+    background: url('../img/cards.png') -5040px 0px no-repeat;
+}
+.SJ {
+    background: url('../img/cards.png') -5160px 0px no-repeat;
+}
+.Joker1 {
+    background: url('../img/cards.png') -5280px 0px no-repeat;
+}
+.Joker2 {
+    background: url('../img/cards.png') -5400px 0px no-repeat;
+}
+.CK {
+    background: url('../img/cards.png') -5520px 0px no-repeat;
+}
+.DK {
+    background: url('../img/cards.png') -5640px 0px no-repeat;
+}
+.HK {
+    background: url('../img/cards.png') -5760px 0px no-repeat;
+}
+.SK {
+    background: url('../img/cards.png') -5880px 0px no-repeat;
+}
+.CQ {
+    background: url('../img/cards.png') -6000px 0px no-repeat;
+}
+.DQ {
+    background: url('../img/cards.png') -6120px 0px no-repeat;
+}
+.HQ {
+    background: url('../img/cards.png') -6240px 0px no-repeat;
+}
+.SQ {
+    background: url('../img/cards.png') -6360px 0px no-repeat;
+}

@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/blackjack.css">
+</head>
+<body>
+    <div id="alert-modals">
+        <div id="successModal" data-dismiss="modal" class="modal alert-modal fade alert alert-success">
+            <a class="close" data-dismiss="modal" aria-label="close">×</a>
+            <strong class="alert-title float-left">Success</strong>
+            <p class="alert-message">Indicates a successful or positive action.</p>
+        </div>
+        <div id="infoModal" data-dismiss="modal" class="modal alert-modal fade alert alert-info">
+            <a class="close" data-dismiss="modal" aria-label="close">×</a>
+            <strong class="alert-title float-left">Info</strong>
+            <p class="alert-message">This alert box could indicate a neutral informative change or action.</p>
+        </div>
+        <div id="warningModal" data-dismiss="modal" class="modal alert-modal fade alert alert-warning">
+            <a class="close" data-dismiss="modal" aria-label="close">×</a>
+            <strong class="alert-title float-left">Warning</strong>
+            <p class="alert-message">This alert box could indicate a warning that might need attention.</p>
+        </div>
+        <div id="dangerModal" data-dismiss="modal" class="modal alert-modal fade alert alert-danger">
+            <a class="close" data-dismiss="modal" aria-label="close">×</a>
+            <strong class="alert-title float-left">Error</strong>
+            <p class="alert-message">This alert box could indicate a dangerous or potentially negative action.</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="menu-module" class="row">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Blackjack</a>
+                </div>
+                <div class="navbar-collapse">
+                    <button id="btnNewGame" type="button" class="btn btn-default navbar-btn new-game">New Game</button>
+                </div>
+            </nav>
+        </div>
+
+        <div id="dealer-module" class="row">
+            <div class="col-md-10">
+                <div class="dealer panel panel-default">
+                    <div class="panel-heading">
+                        Dealer
+                        <div class="pull-right">
+                            <span>Score:</span>
+                            <span id="lblDealersScore" class="score"></span>
+                        </div>
+                    </div>
+                    <div id="dealerCardDeck" class="cards panel-body">
+                        <!--
+                        template for a card
+                        <div class="card DQ"></div>
+                        -->
+                    </div>
+                </div>
+            </div>
+            <script id="dealers-carddeck-template" type="text/x-handlebars-template">
+                {{#each this}}
+                <div class="card {{Class}}"></div>
+                {{/each}}
+            </script>
+        </div>
+
+        <div id="player-module" class="row">
+            <div class="col-md-10">
+                <div class="player panel panel-default">
+                    <div class="panel-heading">
+                        Player
+                        <div class="pull-right">
+                            <span>Score:</span>
+                            <span id="lblPlayersScore" class="score"></span>
+                        </div>
+                    </div>
+                    <div id="playersCardDeck" class="cards panel-body">
+                        <!--
+                        template for a card
+                        <div class="card D3"></div>
+                        -->
+                    </div>
+                    <div class="panel-footer">
+                        <div class="btn-group btn-group-sm btn-group-justified">
+                            <a id="btnHit" class="btn btn-default disabled hit">Hit</a>
+                            <a id="btnStick" class="btn btn-default disabled stick">Stick</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script id="players-carddeck-template" type="text/x-handlebars-template">
+                {{#each this}}
+                <div class="card {{Class}}"></div>
+                {{/each}}
+            </script>
+        </div>
+
+    </div>
+    <script data-main="scripts/appBlackJack.js" src="scripts/require.js"></script>
+</body>
+</html>
